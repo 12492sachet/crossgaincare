@@ -1,0 +1,78 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 06 Apr 2026 10:11:37 at https://crossgaincare.com.au/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://crossgaincare.com.au/ -O1 "C:\My Web Sites\CROSS GAIN CARE" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:11:40	Warning: 	Note: due to https://crossgaincare.com.au remote robots.txt rules, links beginning with these path will be forbidden: /wp-content/uploads/wpo-plugins-tables-list.json (see in the options to disable this)
+10:14:22	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://crossgaincare.com.au/)
+10:19:09	Warning: 	Moved Permanently for https://crossgaincare.com.au/sta-respite-a/
+10:19:09	Warning: 	File has moved from https://crossgaincare.com.au/sta-respite-a/ to https://crossgaincare.com.au/sta-respite-accommodation/
+10:19:55	Error: 	"Not Found" (404) at link https://crossgaincare.com.au/ndis-code-of-conduct/ (from https://crossgaincare.com.au/)
+10:20:03	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=4009
+10:20:03	Warning: 	File has moved from https://crossgaincare.com.au/?p=4009 to https://crossgaincare.com.au/about-ccr/
+10:20:03	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=589
+10:20:03	Warning: 	File has moved from https://crossgaincare.com.au/?p=589 to https://crossgaincare.com.au/who-is-ndis/
+10:20:18	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=800
+10:20:18	Warning: 	File has moved from https://crossgaincare.com.au/?p=800 to https://crossgaincare.com.au/community-access-and-participation/
+10:20:19	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=9666
+10:20:19	Warning: 	File has moved from https://crossgaincare.com.au/?p=9666 to https://crossgaincare.com.au/elementor-9666/
+10:20:19	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=4545
+10:20:19	Warning: 	File has moved from https://crossgaincare.com.au/?p=4545 to https://crossgaincare.com.au/household-tasks/
+10:20:20	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=4560
+10:20:20	Warning: 	File has moved from https://crossgaincare.com.au/?p=4560 to https://crossgaincare.com.au/assistance-with-travel-and-travel-arrangements/
+10:20:20	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=7972
+10:20:20	Warning: 	File has moved from https://crossgaincare.com.au/?p=7972 to https://crossgaincare.com.au/skill-development/
+10:20:20	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=8027
+10:20:20	Warning: 	File has moved from https://crossgaincare.com.au/?p=8027 to https://crossgaincare.com.au/community-nursing/
+10:20:20	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=8149
+10:20:20	Warning: 	File has moved from https://crossgaincare.com.au/?p=8149 to https://crossgaincare.com.au/personal-care/
+10:20:21	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=8287
+10:20:21	Warning: 	File has moved from https://crossgaincare.com.au/?p=8287 to https://crossgaincare.com.au/sta-respite-accommodation/
+10:20:21	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=8345
+10:20:21	Warning: 	File has moved from https://crossgaincare.com.au/?p=8345 to https://crossgaincare.com.au/sil-accommodation/
+10:20:21	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=8406
+10:20:21	Warning: 	File has moved from https://crossgaincare.com.au/?p=8406 to https://crossgaincare.com.au/medium-term-accommodation/
+10:20:23	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=5624
+10:20:23	Warning: 	File has moved from https://crossgaincare.com.au/?p=5624 to https://crossgaincare.com.au/accomodation/
+10:20:24	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=7297
+10:20:24	Warning: 	File has moved from https://crossgaincare.com.au/?p=7297 to https://crossgaincare.com.au/the-mews-waurn-ponds/
+10:20:24	Error: 	"Not Found" (404) at link https://crossgaincare.com.au/wp-content/uploads/2023/11/DSC00157HDR-scaled.jpg (from https://crossgaincare.com.au/the-oack-waurn-ponds-2/)
+10:20:25	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=7274
+10:20:25	Warning: 	File has moved from https://crossgaincare.com.au/?p=7274 to https://crossgaincare.com.au/the-oack-waurn-ponds-2/
+10:20:26	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=7201
+10:20:26	Warning: 	File has moved from https://crossgaincare.com.au/?p=7201 to https://crossgaincare.com.au/the-grove-point-cook/
+10:20:27	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=7255
+10:20:27	Warning: 	File has moved from https://crossgaincare.com.au/?p=7255 to https://crossgaincare.com.au/the-drive-tarneit-2/
+10:20:27	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=475
+10:20:27	Warning: 	File has moved from https://crossgaincare.com.au/?p=475 to https://crossgaincare.com.au/become-a-volunteer/
+10:20:27	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=21565
+10:20:27	Warning: 	File has moved from https://crossgaincare.com.au/?p=21565 to https://crossgaincare.com.au/pos-na-afairesete-ti-skouria-apo-ta-roucha-symvoules-apo-tin-sparklean/
+10:20:28	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=4015
+10:20:28	Warning: 	File has moved from https://crossgaincare.com.au/?p=4015 to https://crossgaincare.com.au/contact-us/
+10:20:28	Warning: 	Retry after error -4 (No data (connection closed)) at link https://crossgaincare.com.au/?p=1468 (from https://crossgaincare.com.au/blog-masonry/)
+10:21:29	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=6798
+10:21:29	Warning: 	File has moved from https://crossgaincare.com.au/?p=6798 to https://crossgaincare.com.au/privacy-policy-2/
+10:21:29	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=6787
+10:21:29	Warning: 	File has moved from https://crossgaincare.com.au/?p=6787 to https://crossgaincare.com.au/client-charter/
+10:21:29	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=7761
+10:21:29	Warning: 	File has moved from https://crossgaincare.com.au/?p=7761 to https://crossgaincare.com.au/qualifying-checklist/
+10:21:29	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=1468
+10:21:29	Warning: 	File has moved from https://crossgaincare.com.au/?p=1468 to https://crossgaincare.com.au/blog-masonry/
+10:21:30	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=21545
+10:21:30	Warning: 	File has moved from https://crossgaincare.com.au/?p=21545 to https://crossgaincare.com.au/neue-verbunden-casinos-qua-abfahrt-im-august-2025-traktandum-boni-spiele/
+10:21:30	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=21535
+10:21:30	Warning: 	File has moved from https://crossgaincare.com.au/?p=21535 to https://crossgaincare.com.au/extra-poker-games-guide-play-bonus-casino-casino-challenge-poker/
+10:21:30	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=21527
+10:21:30	Warning: 	File has moved from https://crossgaincare.com.au/?p=21527 to https://crossgaincare.com.au/top-mastercard-online-gambling-establishments-a-total-guide/
+10:21:30	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=21533
+10:21:30	Warning: 	File has moved from https://crossgaincare.com.au/?p=21533 to https://crossgaincare.com.au/onlajn-gama-casino-online-3209/
+10:21:30	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=21515
+10:21:30	Warning: 	File has moved from https://crossgaincare.com.au/?p=21515 to https://crossgaincare.com.au/kasyno-online-z-najlepszymi-bonusami-dla-staych-61/
+10:21:33	Warning: 	Moved Permanently for https://crossgaincare.com.au/?p=21555
+10:21:33	Warning: 	File has moved from https://crossgaincare.com.au/?p=21555 to https://crossgaincare.com.au/10-best-crypto-gambling-enterprises-gambling-internet-sites-in-america-sep-2025/
+
+HTTrack Website Copier/3.49-2 mirror complete in 9 minutes 56 seconds : 435 links scanned, 399 files written (44283043 bytes overall) [42270106 bytes received at 70922 bytes/sec], 3579140 bytes transferred using HTTP compression in 66 files, ratio 32%, 3.1 requests per connection
+(3 errors, 64 warnings, 0 messages)
