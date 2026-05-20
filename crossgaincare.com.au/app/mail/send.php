@@ -4,10 +4,26 @@ require __DIR__ . '/../Config/bootstrap.php';
 
 use App\Mail\Mailer;
 
+function render_response_page($title, $htmlMessage, $httpCode = 200)
+{
+  http_response_code($httpCode);
+  header('Content-Type: text/html; charset=utf-8');
+  $safeTitle = htmlspecialchars($title, ENT_QUOTES, 'UTF-8');
+  echo "<!doctype html><html><head><meta charset=\"utf-8\"><title>{$safeTitle}</title>";
+  echo "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">";
+  echo "<style>body{font-family:Arial,Helvetica,sans-serif;background:#f4f4f4;margin:0;padding:20px} .card{max-width:720px;margin:40px auto;background:#fff;padding:20px;border-radius:8px;box-shadow:0 4px 20px rgba(0,0,0,0.08)} h1{font-size:20px;margin:0 0 10px} p{color:#333} .btn{display:inline-block;margin-top:18px;padding:10px 14px;border-radius:6px;background:#2b74d9;color:#fff;text-decoration:none} .btn-secondary{background:#777}</style>";
+  echo "</head><body><div class=\"card\">";
+  echo "<h1>" . $safeTitle . "</h1>";
+  echo $htmlMessage;
+  echo "<div><a href=\"javascript:history.back()\" class=\"btn btn-secondary\">Back</a> ";
+  echo "<a href=\"/\" class=\"btn\">Home</a></div>";
+  echo "</div></body></html>";
+}
+
 // Only POST allowed
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    http_response_code(405);
-    exit(json_encode(["error" => "Method not allowed"]));
+  render_response_page('Method Not Allowed', '<p>Only POST requests are accepted by this endpoint.</p>', 405);
+  exit;
 }
 
 // 🔥 Elementor sends form_fields array
@@ -22,8 +38,9 @@ $service     = $form['Service'] ?? '';
 
 // Basic validation
 if (!$name || !$email || !$service) {
-    http_response_code(400);
-    exit(json_encode(["error" => "Missing required fields"]));
+  $msg = '<p>Missing required fields. Please provide your name, email and service selection.</p>';
+  render_response_page('Missing Required Fields', $msg, 400);
+  exit;
 }
 
 // Detect volunteer application (file upload present or known volunteer form_id)
@@ -79,8 +96,12 @@ $to = $_ENV['SMTP_USER'];
 $result = Mailer::send($to, $subject, $message, $attachments);
 
 if ($result) {
-    echo json_encode(["success" => true]);
+  $bodyMsg = "<p>Your message has been sent successfully. Thank you for contacting us.</p>";
+  if ($isVolunteer) {
+    $bodyMsg .= "<p>We have received your volunteer application and will be in touch soon.</p>";
+  }
+  render_response_page('Submission Received', $bodyMsg, 200);
 } else {
-    http_response_code(500);
-    echo json_encode(["success" => false]);
+  $errMsg = '<p>There was a problem sending your message. Please try again later or contact us directly at admin@crossgaincare.com.au.</p>';
+  render_response_page('Send Failed', $errMsg, 500);
 }
